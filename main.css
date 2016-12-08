@@ -1,0 +1,69 @@
+/* Font Stuff Here */
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'fira_sansregular';
+    src: url('../fonts/firasans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/firasans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Site Style */
+.clear {
+	clear: both;
+}
+body {
+   background-color : #f7a98f;
+   font-family: 'fira_sansregular', sans-serif;
+}
+#wrapper {
+	width: 80%;
+	margin: 0 auto;
+	background-color : #5b2333;
+}
+header {
+	text-align: center;
+	padding-top: 25px;
+}
+
+h1 {
+	font-family: 'alex_brushregular', serif;
+}
+h1, h2, h3, h4, h5, h6, p {
+	color: #fff;
+}
+p {
+	line-height: 26px;
+}
+
+footer {
+	text-align: center;
+}
+section {
+	margin: 20px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+section div {
+	float: left;
+	width: 40%;
+	padding: 0 5%;
+}
+
+section div img {
+	width: 100%;
+}
